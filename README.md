@@ -111,7 +111,7 @@ All of this happens in about **1 to 2 seconds**!
 
 1. Open the [Scratch Editor](https://scratch.mit.edu/projects/editor).
 2. Click **File → Load from your computer**.
-3. Select `Gemini_AI.sb3` included in this repository.
+3. Select `AI Chatbot.sb3` included in this repository.
 4. If you created a new project, make sure it has two cloud variables:
    * `☁ INPUT`
    * `☁ OUTPUT`
