@@ -10,7 +10,7 @@
 Connect a Scratch 3.0 project to an online LLM (Groq API) using Scratch Cloud Variables (`☁ INPUT` and `☁ OUTPUT`).
 
 The project contains:
-1. `Gemini_AI.sb3` — The pre-built Scratch project with full 2-digit encoder, decoder, word-wrap chat log, and cloud sync.
+1. `AI Chatbot.sb3` — The pre-built Scratch project with full 2-digit encoder, decoder, word-wrap chat log, and cloud sync.
 2. `bot.py` — The Python backend that listens to `☁ INPUT`, queries Groq, and writes the answer to `☁ OUTPUT`.
 3. `.github/workflows/bot.yml` — A GitHub Actions workflow that hosts the bot 24/7 in the cloud for free.
 4. `.env` / `.env.example` — Configuration file for credentials.
@@ -79,7 +79,7 @@ Ask the user for the following 4 pieces of information (remind them to never sha
 Tell the user to:
 1. Open [Scratch](https://scratch.mit.edu/projects/editor).
 2. Click **File → Load from your computer**.
-3. Select `Gemini_AI.sb3` from this repository.
+3. Select `AI Chatbot.sb3` from this repository.
 4. Save / Share the project.
 5. Click the **Green Flag** and ask any question in the ask box!
 
